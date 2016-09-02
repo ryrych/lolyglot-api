@@ -1,0 +1,20 @@
+default: &default
+  adapter:  postgresql
+  encoding: unicode
+  host:     localhost
+  password: change_me
+  pool:     5
+  template: template0
+  username: change_me
+
+development:
+  <<: *default
+  database: lolyglot_development
+
+test:
+  <<: *default
+  database: lolyglot_test
+
+production:
+  <<: *default
+  database: lolyglot_production
