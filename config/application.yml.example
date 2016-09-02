@@ -1,0 +1,15 @@
+defaults: &defaults
+  omniauth_provider_key: ""
+  omniauth_provider_secret: ""
+
+development:
+  <<: *defaults
+  secret_key_base: ""
+
+test:
+  <<: *defaults
+  secret_key_base: ""
+
+production:
+  <<: *defaults
+  secret_key_base: ""
