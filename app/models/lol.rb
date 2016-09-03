@@ -1,3 +1,4 @@
 class Lol < ApplicationRecord
-  validates :term, presence: true
+  belongs_to :user, inverse_of: :lols
+  validates :term, :user_id, presence: true
 end
