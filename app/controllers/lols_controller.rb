@@ -1,0 +1,2 @@
+class LolsController < ResourceController
+end
