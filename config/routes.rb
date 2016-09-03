@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  use_doorkeeper
   root to: 'api/v1/lols#index'
 
   namespace :api do
