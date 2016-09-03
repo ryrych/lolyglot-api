@@ -1,3 +1,5 @@
+# generate `secret_key_base` with `rake secret`
+
 defaults: &defaults
   omniauth_provider_key: ""
   omniauth_provider_secret: ""
