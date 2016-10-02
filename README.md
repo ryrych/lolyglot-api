@@ -35,4 +35,5 @@ rails server
 
 ## Querying API
 
-To test and query API, install [Postman](https://www.getpostman.com/)
+To test and query API, install [Postman](https://www.getpostman.com/).
+[**Click here**](https://www.getpostman.com/collections/7ef43ce4be3a98c60253) to copy lolyglot config for Postman 
