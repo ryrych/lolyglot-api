@@ -12,6 +12,7 @@ cd lolyglot-api
 ```console
 rvm install 2.3.1@lolyglot-api
 rvm use 2.3.1@lolyglot-api
+gem install bundler # if necessary
 bundle install
 ```
 
