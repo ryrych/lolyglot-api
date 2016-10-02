@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is backend for [lolyglot client](https://github.com/ryrych/lolyglot-client)
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+```console
+git clone git@github.com:ryrych/lolyglot-api.git
+cd lolyglot-api
+```
 
-* System dependencies
+```console
+rvm install 2.3.1@lolyglot-api
+rvm use 2.3.1@lolyglot-api
+gem install bundler # if necessary
+bundle install
+```
 
-* Configuration
+```console
+cp config/application.yml.example config/application.yml
+cp config/database.example.yml config/database.yml # don't forget to change `user_name`
+```
 
-* Database creation
+```console
+rake db:create
+rake db:migrate
+rake db:seed
+```
 
-* Database initialization
+## Run
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```console
+rails server
+```
