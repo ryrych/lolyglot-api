@@ -1,5 +1,7 @@
 # README
 
+This is backend for [lolyglot client](https://github.com/ryrych/lolyglot-client)
+
 ## Setup
 
 ```console
