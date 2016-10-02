@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :user do
-    sequence(:email) { |n| "user-#{n}@lolyglot.dev" }
-    avatar_url { FFaker::Placeholdit.image("320x320", 'jpg', 'ffffff', '000', name) }
+    sequence(:email) { |n| 'user-#{n}@lolyglot.dev' }
+    avatar_url { FFaker::Avatar.image }
     name       { FFaker::Name.name }
     uid        { FFaker::Guid.guid }
     provider 'google'
