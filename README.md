@@ -32,3 +32,7 @@ rake db:seed
 ```console
 rails server
 ```
+
+## Querying API
+
+To test and query API, install [Postman](https://www.getpostman.com/)
