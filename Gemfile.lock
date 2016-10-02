@@ -100,10 +100,6 @@ GEM
       safe_yaml (~> 1.0.0)
     database_cleaner (1.5.1)
     diff-lcs (1.2.5)
-    doorkeeper (4.2.0)
-      railties (>= 4.2)
-    doorkeeper-jwt (0.1.6)
-      jwt (~> 1.5.2, >= 1.5.2)
     erubis (2.7.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -240,8 +236,6 @@ PLATFORMS
 DEPENDENCIES
   business_process (~> 0.0.1)
   database_cleaner (= 1.5.1)
-  doorkeeper (~> 4.1)
-  doorkeeper-jwt
   factory_girl_rails (~> 4.5.0)
   ffaker (= 2.1.0)
   jsonapi-resources!
@@ -267,4 +261,4 @@ DEPENDENCIES
   webmock (~> 1.22.6)
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
