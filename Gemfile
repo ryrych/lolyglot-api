@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 gem 'puma',  '~> 3.0'
 
-gem 'doorkeeper',        '~> 4.1'
-gem 'doorkeeper-jwt'
 gem 'jsonapi-resources', github: 'cerebris/jsonapi-resources', ref: '9db1c5136865d43002544b6ac497ba119d8428bc'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
